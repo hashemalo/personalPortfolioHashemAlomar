@@ -1,4 +1,8 @@
 .home-page{
+    
+    .unselectable{
+        user-select: none;
+    }
     .text-zone{
         position: absolute;
         left: 10%;

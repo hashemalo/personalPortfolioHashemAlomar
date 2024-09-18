@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.scss'; // You'll create this file for styling
-
+import {Helmet} from 'react-helmet';
 const Projects = () => {
   const projects = [
     {
@@ -22,7 +22,13 @@ const Projects = () => {
     // Add more projects as needed
   ];
   return (
+    
     <div className="projects-page">
+      <Helmet>
+        <title>HA - Projects</title>
+        <meta name="description" content="View my portfolio of projects" />
+      </Helmet>
+
       <h1>My Projects</h1>
       <div className="projects-grid">
         {projects.map((project, index) => (

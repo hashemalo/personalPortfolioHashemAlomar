@@ -11,6 +11,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './index.scss'
+import { Helmet } from 'react-helmet'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -23,28 +24,32 @@ const About = () => {
 
   return (
     <>
+    <Helmet>
+      <title>HA - About</title>
+      <meta name="description" content="About me!" />
+    </Helmet>
       <div className="container about-page">
         <div className="text-zone">
-          <h1>
-            <AnimatedLetters
+          <h1 class="unselectable">
+            <AnimatedLetters 
               letterClass={letterClass}
               strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
               idx={15}
             />
           </h1>
-          <p>
-            I am a Computer Science and Mathematics Major at the University of Maryland in college park.
-            I am throughly fascinated by machine learning and AI and I hope to be a pioneer in the field
+          <p class="unselectable">
+            I am a Computer Science and Mathematics major at the University of Maryland in College Park.
+            I am thoroughly fascinated by machine learning and AI and I hope to be a pioneer in the field
             in the future.
           </p>
-          <p align="LEFT">
+          <p align="LEFT" class="unselectable">
             I am always looking for opportunities to advance my career and learn more. I have experience
-            working with Java, Python, HTML5, & some C++ I am currently on the Campus AI Leadership Council 
+            working with Java, Python, HTML5, & C++ I am currently on the Campus AI Leadership Council 
             for Boodlebox, working to advance Collaborative AI in education.
           </p>
-          <p>
-            In my freetime I like to Rock Climb, Read, Workout and watch Basketball! I am originally from Jordan
-            and a Shawarma Sandwich will always fix all my problems.
+          <p class="unselectable">
+            In my freetime I like to rock climb, read, workout and watch basketball! I am originally from Jordan
+            and a Shawarma sandwich will always fix all my problems.
           </p>
         </div>
 

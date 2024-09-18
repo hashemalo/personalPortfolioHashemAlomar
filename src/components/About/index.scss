@@ -8,7 +8,9 @@
     right: 0;
     overflow: hidden;
   }
-  
+  .unselectable{
+    user-select: none;
+  }
   .cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;
@@ -78,4 +80,8 @@
     83% {
       transform: rotateX(90deg);
     }
+  }
+
+  p{
+    font-size: 17.5px;
   }
