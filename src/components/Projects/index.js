@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "This Website!",
       description: "I made this website during my first semester in college as a learning experience for front end web dev.",
-      githubLink: ""
+      githubLink: "https://github.com/hashemalo/personalPortfolioHashemAlomar"
     },
     {
       title: "AI Chatbot TBD",
