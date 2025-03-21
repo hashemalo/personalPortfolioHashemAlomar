@@ -9,15 +9,11 @@ const Projects = () => {
       githubLink: "https://github.com/hashemalo/personalPortfolioHashemAlomar"
     },
     {
-      title: "AI Chatbot TBD",
-      description: "Working on it...",
-      githubLink: ""
+      title: "LSTM Stock Predictor",
+      description: "RNN model that predicts stock prices using LSTM layers, displays predictions for next 5 days for any stock",
+      githubLink: "https://github.com/hashemalo/LSTM"
     },
-    {
-        title: "Deep Learning Handwriting Prescriber",
-        description: "Working on it..",
-        githubLink: ""
-    },
+
     
     // Add more projects as needed
   ];

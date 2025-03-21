@@ -44,8 +44,7 @@ const About = () => {
           </p>
           <p align="LEFT" class="unselectable">
             I am always looking for opportunities to advance my career and learn more. I have experience
-            working with Java, Python, HTML5, & C++. I am currently interning at Boodle AI as a software
-            engineer, assisting with the implementation of Collaborative AI in education.
+            working with Java, Python, React, Node, C++
           </p>
           <p class="unselectable">
             In my freetime I like to rock climb, read, workout and watch basketball! I am originally from Jordan
